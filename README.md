@@ -1,2 +1,2 @@
-# final-platinum_BE_JS
-Final Class
+# final Platinum_BE_JS
+Final Class Back End 
