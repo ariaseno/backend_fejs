@@ -27,6 +27,7 @@ module.exports = {
         })
     },
     getProduct: (req, res) => {
+        console.log("getproduct");
         product.findAll({where: {isSold: false, publish: true}})
         .then(products => {
             if(products.length == 0){
